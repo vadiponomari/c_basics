@@ -1,0 +1,3 @@
+/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles/c_basics.dir
