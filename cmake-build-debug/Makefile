@@ -143,32 +143,32 @@ c_basics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/build
 .PHONY : c_basics/fast
 
-main.o: main.cpp.o
+lesson_1.o: lesson_1.cpp.o
 
-.PHONY : main.o
+.PHONY : lesson_1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.o
-.PHONY : main.cpp.o
+lesson_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_1.cpp.o
+.PHONY : lesson_1.cpp.o
 
-main.i: main.cpp.i
+lesson_1.i: lesson_1.cpp.i
 
-.PHONY : main.i
+.PHONY : lesson_1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.i
-.PHONY : main.cpp.i
+lesson_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_1.cpp.i
+.PHONY : lesson_1.cpp.i
 
-main.s: main.cpp.s
+lesson_1.s: lesson_1.cpp.s
 
-.PHONY : main.s
+.PHONY : lesson_1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.s
-.PHONY : main.cpp.s
+lesson_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_1.cpp.s
+.PHONY : lesson_1.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_basics"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lesson_1.o"
+	@echo "... lesson_1.i"
+	@echo "... lesson_1.s"
 .PHONY : help
 
 
