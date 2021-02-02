@@ -3,4 +3,4 @@ project(c_basics)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_basics main.cpp)
+add_executable(c_basics lesson_2.cpp)
