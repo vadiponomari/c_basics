@@ -143,32 +143,59 @@ c_basics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/build
 .PHONY : c_basics/fast
 
-main.o: main.cpp.o
+lesson_3.o: lesson_3.cpp.o
 
-.PHONY : main.o
+.PHONY : lesson_3.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.o
-.PHONY : main.cpp.o
+lesson_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.o
+.PHONY : lesson_3.cpp.o
 
-main.i: main.cpp.i
+lesson_3.i: lesson_3.cpp.i
 
-.PHONY : main.i
+.PHONY : lesson_3.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.i
-.PHONY : main.cpp.i
+lesson_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.i
+.PHONY : lesson_3.cpp.i
 
-main.s: main.cpp.s
+lesson_3.s: lesson_3.cpp.s
 
-.PHONY : main.s
+.PHONY : lesson_3.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/main.cpp.s
-.PHONY : main.cpp.s
+lesson_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.s
+.PHONY : lesson_3.cpp.s
+
+task_3.o: task_3.cpp.o
+
+.PHONY : task_3.o
+
+# target to build an object file
+task_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.o
+.PHONY : task_3.cpp.o
+
+task_3.i: task_3.cpp.i
+
+.PHONY : task_3.i
+
+# target to preprocess a source file
+task_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.i
+.PHONY : task_3.cpp.i
+
+task_3.s: task_3.cpp.s
+
+.PHONY : task_3.s
+
+# target to generate assembly for a file
+task_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.s
+.PHONY : task_3.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_basics"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lesson_3.o"
+	@echo "... lesson_3.i"
+	@echo "... lesson_3.s"
+	@echo "... task_3.o"
+	@echo "... task_3.i"
+	@echo "... task_3.s"
 .PHONY : help
 
 
