@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vadim.ponomarev/CLionProjects/c_basics/main.cpp">
+		<Unit filename="/Users/vadim.ponomarev/CLionProjects/c_basics/lesson_4.cpp">
 			<Option target="c_basics"/>
 		</Unit>
 		<Unit filename="/Users/vadim.ponomarev/CLionProjects/c_basics/CMakeLists.txt">

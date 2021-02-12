@@ -77,27 +77,27 @@ include CMakeFiles/c_basics.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_basics.dir/flags.make
 
-CMakeFiles/c_basics.dir/main.cpp.o: CMakeFiles/c_basics.dir/flags.make
-CMakeFiles/c_basics.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_basics.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_basics.dir/main.cpp.o -c /Users/vadim.ponomarev/CLionProjects/c_basics/main.cpp
+CMakeFiles/c_basics.dir/lesson_4.cpp.o: CMakeFiles/c_basics.dir/flags.make
+CMakeFiles/c_basics.dir/lesson_4.cpp.o: ../lesson_4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_basics.dir/lesson_4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_basics.dir/lesson_4.cpp.o -c /Users/vadim.ponomarev/CLionProjects/c_basics/lesson_4.cpp
 
-CMakeFiles/c_basics.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_basics.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim.ponomarev/CLionProjects/c_basics/main.cpp > CMakeFiles/c_basics.dir/main.cpp.i
+CMakeFiles/c_basics.dir/lesson_4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_basics.dir/lesson_4.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim.ponomarev/CLionProjects/c_basics/lesson_4.cpp > CMakeFiles/c_basics.dir/lesson_4.cpp.i
 
-CMakeFiles/c_basics.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_basics.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim.ponomarev/CLionProjects/c_basics/main.cpp -o CMakeFiles/c_basics.dir/main.cpp.s
+CMakeFiles/c_basics.dir/lesson_4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_basics.dir/lesson_4.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim.ponomarev/CLionProjects/c_basics/lesson_4.cpp -o CMakeFiles/c_basics.dir/lesson_4.cpp.s
 
 # Object files for target c_basics
 c_basics_OBJECTS = \
-"CMakeFiles/c_basics.dir/main.cpp.o"
+"CMakeFiles/c_basics.dir/lesson_4.cpp.o"
 
 # External object files for target c_basics
 c_basics_EXTERNAL_OBJECTS =
 
-c_basics: CMakeFiles/c_basics.dir/main.cpp.o
+c_basics: CMakeFiles/c_basics.dir/lesson_4.cpp.o
 c_basics: CMakeFiles/c_basics.dir/build.make
 c_basics: CMakeFiles/c_basics.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vadim.ponomarev/CLionProjects/c_basics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c_basics"
