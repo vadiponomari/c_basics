@@ -143,59 +143,32 @@ c_basics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/build
 .PHONY : c_basics/fast
 
-lesson_3.o: lesson_3.cpp.o
+lesson_4.o: lesson_4.cpp.o
 
-.PHONY : lesson_3.o
-
-# target to build an object file
-lesson_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.o
-.PHONY : lesson_3.cpp.o
-
-lesson_3.i: lesson_3.cpp.i
-
-.PHONY : lesson_3.i
-
-# target to preprocess a source file
-lesson_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.i
-.PHONY : lesson_3.cpp.i
-
-lesson_3.s: lesson_3.cpp.s
-
-.PHONY : lesson_3.s
-
-# target to generate assembly for a file
-lesson_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_3.cpp.s
-.PHONY : lesson_3.cpp.s
-
-task_3.o: task_3.cpp.o
-
-.PHONY : task_3.o
+.PHONY : lesson_4.o
 
 # target to build an object file
-task_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.o
-.PHONY : task_3.cpp.o
+lesson_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_4.cpp.o
+.PHONY : lesson_4.cpp.o
 
-task_3.i: task_3.cpp.i
+lesson_4.i: lesson_4.cpp.i
 
-.PHONY : task_3.i
+.PHONY : lesson_4.i
 
 # target to preprocess a source file
-task_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.i
-.PHONY : task_3.cpp.i
+lesson_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_4.cpp.i
+.PHONY : lesson_4.cpp.i
 
-task_3.s: task_3.cpp.s
+lesson_4.s: lesson_4.cpp.s
 
-.PHONY : task_3.s
+.PHONY : lesson_4.s
 
 # target to generate assembly for a file
-task_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/task_3.cpp.s
-.PHONY : task_3.cpp.s
+lesson_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_basics.dir/build.make CMakeFiles/c_basics.dir/lesson_4.cpp.s
+.PHONY : lesson_4.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_basics"
-	@echo "... lesson_3.o"
-	@echo "... lesson_3.i"
-	@echo "... lesson_3.s"
-	@echo "... task_3.o"
-	@echo "... task_3.i"
-	@echo "... task_3.s"
+	@echo "... lesson_4.o"
+	@echo "... lesson_4.i"
+	@echo "... lesson_4.s"
 .PHONY : help
 
 
